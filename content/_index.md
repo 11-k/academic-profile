@@ -19,6 +19,15 @@ sections:
       button:
         text: Download CV
         url: uploads/resume.pdf
+      contact: |
+        **Email**: [your.email@example.edu](mailto:your.email@example.edu)
+
+        **Office**: Room XXX, Your Building, Your University
+
+        **Address**:
+        Your Department, Your University, Your City, Country
+
+        **Office Hours**: By appointment
     design:
       name:
         size: sm
@@ -53,23 +62,4 @@ sections:
     design:
       view: citation
 
-  # Contact
-  - block: markdown
-    id: contact
-    content:
-      title: Contact
-      subtitle: ''
-      text: |
-        **Email**: [your.email@example.edu](mailto:your.email@example.edu)
-
-        **Office**: Room XXX, Your Building, Your University
-
-        **Address**:
-        Your Department
-        Your University
-        Your City, Country
-
-        **Office Hours**: By appointment
-    design:
-      columns: '1'
 ---
