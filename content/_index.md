@@ -5,7 +5,7 @@ date: 2024-01-01
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '3rem'
 
 sections:
   # Bio / About Section
@@ -20,13 +20,10 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      background:
-        gradient_mesh:
-          enable: true
       name:
-        size: md
+        size: sm
       avatar:
-        size: medium
+        size: small
         shape: circle
 
   # Featured Publications
