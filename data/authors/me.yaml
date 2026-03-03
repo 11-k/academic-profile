@@ -1,0 +1,54 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: "Your Name"
+  given: "Your"
+  family: "Name"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+postnominals: []
+status:
+  icon: ""
+role: "Researcher"
+bio: |
+  Please update this bio with your personal introduction.
+  Describe your research interests, current position, and academic background.
+
+affiliations:
+  - name: "Your University"
+    url: "https://example.edu/"
+
+links:
+  - icon: at-symbol
+    url: "mailto:your.email@example.edu"
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: "https://scholar.google.com/"
+  - icon: academicons/orcid
+    url: "https://orcid.org/"
+  - icon: brands/github
+    url: "https://github.com/"
+
+interests:
+  - "Research Interest 1"
+  - "Research Interest 2"
+  - "Research Interest 3"
+
+education:
+  - degree: "PhD in Your Field"
+    institution: "Your University"
+    start: "2020-09-01"
+    end: ""
+    summary: ""
+  - degree: "BS in Your Field"
+    institution: "Your University"
+    start: "2016-09-01"
+    end: "2020-06-30"
+    summary: ""
+
+experience: []
+skills: []
+languages: []
+awards: []
