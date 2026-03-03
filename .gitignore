@@ -1,0 +1,32 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+**/assets/jsconfig.json
+
+# Node.js
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Search index
+pagefind/
+static/pagefind/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
